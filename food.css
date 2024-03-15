@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Madimi+One&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+  body {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1d3557;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .food-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+  }
+  
+.food-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    margin: 10px;
+  }
+  
+  .food-title {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .food-description {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .food-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .food-price {
+    font-weight: bold;
+  }
+  
+  .food-button {
+    background-color: #1d3557;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .food-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .p{
+  color: #1d3557;
+  font-size: 10rem;
+  padding: 2rem 0;
+  line-height: 1.5;
+  padding-bottom: 2rem;
+
+  }
+  h1 {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 3rem;
+    
+}
